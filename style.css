@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(Off.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.text{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 280px;
+    line-height: 55px;
+    font-size: 40px;
+    color: rgb(204, 204, 173);
+}
+
+.btns{
+   position: absolute;
+   top: 70%;
+   left: 10%;
+   max-width: 400px;
+}
+
+.btns button{
+    width: 140px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(193, 184, 173);
+}
